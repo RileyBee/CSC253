@@ -1,6 +1,6 @@
 Dungeon Crawler
 
-This is dungeon crawler is a forms based game which allows the user to navigate North and South between rooms, load inventory, and see current room, as well as currently selected inventory type.  
+This dungeon crawler is a forms based game which allows the user to navigate North and South between rooms, load inventory, and see current room, as well as currently selected inventory type.  
 
 Getting Started
 
