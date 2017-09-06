@@ -1,1 +1,5 @@
 C:\Users\riley\School\Courses\CSC253\M1P1_Noyes_Privette\M1P1_Noyes_Privette\bin\Debug\M1P1_Noyes_Privette.exe.config
+C:\Users\riley\School\Courses\CSC253\M1P1_Noyes_Privette\M1P1_Noyes_Privette\obj\Debug\M1P1_Noyes_Privette.csprojResolveAssemblyReference.cache
+C:\Users\riley\School\Courses\CSC253\M1P1_Noyes_Privette\M1P1_Noyes_Privette\obj\Debug\M1P1_Noyes_Privette.Form1.resources
+C:\Users\riley\School\Courses\CSC253\M1P1_Noyes_Privette\M1P1_Noyes_Privette\obj\Debug\M1P1_Noyes_Privette.Properties.Resources.resources
+C:\Users\riley\School\Courses\CSC253\M1P1_Noyes_Privette\M1P1_Noyes_Privette\obj\Debug\M1P1_Noyes_Privette.csproj.GenerateResource.Cache
