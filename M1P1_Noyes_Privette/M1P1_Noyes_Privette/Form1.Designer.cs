@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.displayListBox = new System.Windows.Forms.ListBox();
             this.roomStatusLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.mobsButton = new System.Windows.Forms.Button();
@@ -41,14 +41,14 @@
             this.exitButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // listBox1
+            // displayListBox
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 15;
-            this.listBox1.Location = new System.Drawing.Point(12, 12);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(185, 169);
-            this.listBox1.TabIndex = 0;
+            this.displayListBox.FormattingEnabled = true;
+            this.displayListBox.ItemHeight = 15;
+            this.displayListBox.Location = new System.Drawing.Point(12, 12);
+            this.displayListBox.Name = "displayListBox";
+            this.displayListBox.Size = new System.Drawing.Size(185, 169);
+            this.displayListBox.TabIndex = 0;
             // 
             // roomStatusLabel
             // 
@@ -84,6 +84,7 @@
             this.weaponsButton.TabIndex = 6;
             this.weaponsButton.Text = "Weapons";
             this.weaponsButton.UseVisualStyleBackColor = true;
+            this.weaponsButton.Click += new System.EventHandler(this.weaponsButton_Click);
             // 
             // potionsButton
             // 
@@ -93,6 +94,7 @@
             this.potionsButton.TabIndex = 7;
             this.potionsButton.Text = "Potions";
             this.potionsButton.UseVisualStyleBackColor = true;
+            this.potionsButton.Click += new System.EventHandler(this.potionsButton_Click);
             // 
             // treasureButton
             // 
@@ -102,6 +104,7 @@
             this.treasureButton.TabIndex = 8;
             this.treasureButton.Text = "Treasure";
             this.treasureButton.UseVisualStyleBackColor = true;
+            this.treasureButton.Click += new System.EventHandler(this.treasureButton_Click);
             // 
             // northButton
             // 
@@ -154,7 +157,7 @@
             this.Controls.Add(this.mobsButton);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.roomStatusLabel);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.displayListBox);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "Form1";
             this.Text = "Dungeon Crawler";
@@ -165,7 +168,7 @@
 
         #endregion
 
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox displayListBox;
         private System.Windows.Forms.Label roomStatusLabel;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button mobsButton;

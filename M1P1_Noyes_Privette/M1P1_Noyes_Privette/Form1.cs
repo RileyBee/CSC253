@@ -21,60 +21,73 @@ namespace M1P1_Noyes_Privette
         public Form1()
         {
             InitializeComponent();
-        }
-
-        // Rooms Method
-        private void Rooms(string[] strArray)
+        }                                
+                     
+                                                                                      
+       
+        private void weaponsButton_Click(object sender, EventArgs e)
         {
-            const int SIZE = 4;
-            string[] rooms = new string[SIZE];
-            rooms[0] = "Armory";
-            rooms[1] = "Forge";
-            rooms[2] = "Prison";
-            rooms[3] = "Labratory";                    
-                        
-        }
+            // Clear ListBox
+            displayListBox.Items.Clear();
 
-        // Weapons Method
-        private void Weapons(string[] strArray)
-        {
+            // Create and initializle weapons array.
             const int SIZE = 4;
             string[] weapons = new string[SIZE];
-            weapons[0] = "Axe";
-            weapons[1] = "Sword";
-            weapons[2] = "Club";
-            weapons[3] = "Spear";
+            weapons[0] = "Sword";
+            weapons[1] = "Axe";
+            weapons[2] = "Spear";
+            weapons[3] = "Club";
+
+            //Sort algorithm
+            Array.Sort(weapons);
+            foreach(string tmp in weapons )
+            {
+                displayListBox.Items.Add(tmp);
+            }
+
             
+
+
         }
 
-        // Potions Method
-        private void Potions(string[] strArray)
+        private void potionsButton_Click(object sender, EventArgs e)
         {
+            // Clear ListBox
+            displayListBox.Items.Clear();
+
+            // Create and initialize potions array.
             const int SIZE = 2;
             string[] potions = new string[SIZE];
             potions[0] = "Mana";
             potions[1] = "Health";
-            
+
+            // Add to ListBox
+            foreach(string tmp in potions)
+            {
+                displayListBox.Items.Add(tmp);
+            }
+
 
         }
 
-        // Treasure Method
-        private void Treasure(string[] strArray)
+        private void treasureButton_Click(object sender, EventArgs e)
         {
+            // Clear ListBox
+            displayListBox.Items.Clear();
+
+            // Create and initialize treasure array.
             const int SIZE = 3;
             string[] treasure = new string[SIZE];
             treasure[0] = "Gold";
             treasure[1] = "Rubies";
             treasure[2] = "Emeralds";
-            
 
+            // Add to ListBox
+            foreach (string tmp in treasure)
+            {
+                displayListBox.Items.Add(tmp);
+            }
         }
-
-
-
-
-
-
-
     }
-}
+    }
+
