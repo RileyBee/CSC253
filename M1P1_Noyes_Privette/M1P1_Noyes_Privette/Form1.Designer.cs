@@ -44,10 +44,10 @@
             // displayListBox
             // 
             this.displayListBox.FormattingEnabled = true;
-            this.displayListBox.ItemHeight = 15;
+            this.displayListBox.ItemHeight = 18;
             this.displayListBox.Location = new System.Drawing.Point(12, 12);
             this.displayListBox.Name = "displayListBox";
-            this.displayListBox.Size = new System.Drawing.Size(185, 169);
+            this.displayListBox.Size = new System.Drawing.Size(185, 166);
             this.displayListBox.TabIndex = 0;
             // 
             // roomStatusLabel
@@ -63,7 +63,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(331, 6);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 15);
+            this.label1.Size = new System.Drawing.Size(103, 18);
             this.label1.TabIndex = 2;
             this.label1.Text = "Current Room";
             // 
@@ -75,6 +75,7 @@
             this.mobsButton.TabIndex = 5;
             this.mobsButton.Text = "Mobs";
             this.mobsButton.UseVisualStyleBackColor = true;
+            this.mobsButton.Click += new System.EventHandler(this.mobsButton_Click);
             // 
             // weaponsButton
             // 
@@ -114,15 +115,18 @@
             this.northButton.TabIndex = 9;
             this.northButton.Text = "NORTH";
             this.northButton.UseVisualStyleBackColor = true;
+            this.northButton.Click += new System.EventHandler(this.northButton_Click);
             // 
             // southButton
             // 
+            this.southButton.Enabled = false;
             this.southButton.Location = new System.Drawing.Point(339, 106);
             this.southButton.Name = "southButton";
             this.southButton.Size = new System.Drawing.Size(58, 40);
             this.southButton.TabIndex = 10;
             this.southButton.Text = "SOUTH";
             this.southButton.UseVisualStyleBackColor = true;
+            this.southButton.Click += new System.EventHandler(this.southButton_Click);
             // 
             // itemsButton
             // 
@@ -132,6 +136,7 @@
             this.itemsButton.TabIndex = 11;
             this.itemsButton.Text = "Items";
             this.itemsButton.UseVisualStyleBackColor = true;
+            this.itemsButton.Click += new System.EventHandler(this.itemsButton_Click);
             // 
             // exitButton
             // 
@@ -141,10 +146,11 @@
             this.exitButton.TabIndex = 12;
             this.exitButton.Text = "Exit";
             this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(445, 200);
             this.Controls.Add(this.exitButton);
