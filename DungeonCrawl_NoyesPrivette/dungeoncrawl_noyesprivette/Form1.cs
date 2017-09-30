@@ -24,8 +24,8 @@ namespace DungeonCrawl_NoyesPrivette
     {
         public string name;
         public string password;
-        public enum Classes {One,Two,Three,Four,Five}
-        public enum Race {One,Two,Three,Four,Five}
+        public enum Classes {Thief,Mage,Warrior,Cleric,Barbarian}
+        public enum Race {Human,Elf,Orc,Goblin,Dwarf}
     }
 
     public partial class Form1 : Form
@@ -250,54 +250,54 @@ namespace DungeonCrawl_NoyesPrivette
             PlayerInfo.Classes currentPlayerClass;
             if (currentPlayerClasses == "0")
             {
-                currentPlayerClass = PlayerInfo.Classes.One;
+                currentPlayerClass = PlayerInfo.Classes.Thief;
             }
             
             else if (currentPlayerClasses == "1")
             {
-                currentPlayerClass = PlayerInfo.Classes.Two;
+                currentPlayerClass = PlayerInfo.Classes.Mage;
             }
 
             else if (currentPlayerClasses == "2")
             {
-                currentPlayerClass = PlayerInfo.Classes.Three;
+                currentPlayerClass = PlayerInfo.Classes.Warrior;
             }
 
             else if (currentPlayerClasses == "3")
             {
-                currentPlayerClass = PlayerInfo.Classes.Four;
+                currentPlayerClass = PlayerInfo.Classes.Cleric;
             }
 
             else
             {
-                currentPlayerClass = PlayerInfo.Classes.Five;      
+                currentPlayerClass = PlayerInfo.Classes.Barbarian;      
             }
 
             // 0 through 4 specifies the race type
             PlayerInfo.Race currentPlayerRace;
             if (currentPlayerRaces == "0")
             {
-                currentPlayerRace = PlayerInfo.Race.One;
+                currentPlayerRace = PlayerInfo.Race.Human;
             }
 
             else if (currentPlayerRaces == "1")
             {
-                currentPlayerRace = PlayerInfo.Race.Two;
+                currentPlayerRace = PlayerInfo.Race.Elf;
             }
 
             else if (currentPlayerRaces == "2")
             {
-                currentPlayerRace = PlayerInfo.Race.Three;
+                currentPlayerRace = PlayerInfo.Race.Orc;
             }
 
             else if (currentPlayerRaces == "3")
             {
-                currentPlayerRace = PlayerInfo.Race.Four;
+                currentPlayerRace = PlayerInfo.Race.Goblin;
             }
 
             else
             {
-                currentPlayerRace = PlayerInfo.Race.Five;
+                currentPlayerRace = PlayerInfo.Race.Dwarf;
             }
 
             // display name of player
