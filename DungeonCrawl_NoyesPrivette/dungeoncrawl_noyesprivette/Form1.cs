@@ -47,6 +47,7 @@ namespace DungeonCrawl_NoyesPrivette
         public string roomDescription;
         public enum Climate {Cold,Temperate,Warm} 
     }
+    
 
     public partial class Form1 : Form
     {
@@ -120,7 +121,7 @@ namespace DungeonCrawl_NoyesPrivette
         private void weaponsButton_Click(object sender, EventArgs e)
         {
             // Clear ListBox
-            displayListBox.Items.Clear();
+            InventoryListBox.Items.Clear();
 
             // Create and initializle weapons array.
             const int SIZE = 4;
@@ -134,14 +135,14 @@ namespace DungeonCrawl_NoyesPrivette
             Array.Sort(weapons);
             foreach (string tmp in weapons)
             {
-                displayListBox.Items.Add(tmp);
+                InventoryListBox.Items.Add(tmp);
             }
         }
 
         private void potionsButton_Click(object sender, EventArgs e)
         {
             // Clear ListBox
-            displayListBox.Items.Clear();
+            InventoryListBox.Items.Clear();
 
             // Create and initialize potions array.
             const int SIZE = 2;
@@ -152,14 +153,14 @@ namespace DungeonCrawl_NoyesPrivette
             // Add to ListBox
             foreach (string tmp in potions)
             {
-                displayListBox.Items.Add(tmp);
+                InventoryListBox.Items.Add(tmp);
             }
         }
 
         private void treasureButton_Click(object sender, EventArgs e)
         {
             // Clear ListBox
-            displayListBox.Items.Clear();
+            InventoryListBox.Items.Clear();
 
             // Create and initialize treasure array.
             const int SIZE = 3;
@@ -171,7 +172,7 @@ namespace DungeonCrawl_NoyesPrivette
             // Add to ListBox
             foreach (string tmp in treasure)
             {
-                displayListBox.Items.Add(tmp);
+                InventoryListBox.Items.Add(tmp);
             }
         }
 
@@ -267,7 +268,7 @@ namespace DungeonCrawl_NoyesPrivette
         private void itemsButton_Click(object sender, EventArgs e)
         {
             // Clear ListBox
-            displayListBox.Items.Clear();
+            InventoryListBox.Items.Clear();
 
             // Create and initialize mob list
             List<string> items = new List<string> { "Key", "Lantern", "Compass", "Map" };
@@ -275,7 +276,7 @@ namespace DungeonCrawl_NoyesPrivette
             // Add to ListBox
             foreach (string tmp in items)
             {
-                displayListBox.Items.Add(tmp);
+                InventoryListBox.Items.Add(tmp);
             }
         }
 
