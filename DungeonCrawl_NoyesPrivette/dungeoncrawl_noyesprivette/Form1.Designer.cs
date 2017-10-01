@@ -53,9 +53,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.roomListBox = new System.Windows.Forms.ListBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.roomOutListBox = new System.Windows.Forms.ListBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.loadRoomsButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // exitButton
@@ -71,7 +72,7 @@
             // 
             // itemsButton
             // 
-            this.itemsButton.Location = new System.Drawing.Point(180, 334);
+            this.itemsButton.Location = new System.Drawing.Point(185, 334);
             this.itemsButton.Margin = new System.Windows.Forms.Padding(2);
             this.itemsButton.Name = "itemsButton";
             this.itemsButton.Size = new System.Drawing.Size(63, 23);
@@ -83,7 +84,7 @@
             // southButton
             // 
             this.southButton.Enabled = false;
-            this.southButton.Location = new System.Drawing.Point(366, 49);
+            this.southButton.Location = new System.Drawing.Point(364, 49);
             this.southButton.Margin = new System.Windows.Forms.Padding(2);
             this.southButton.Name = "southButton";
             this.southButton.Size = new System.Drawing.Size(57, 25);
@@ -94,7 +95,7 @@
             // 
             // northButton
             // 
-            this.northButton.Location = new System.Drawing.Point(365, 20);
+            this.northButton.Location = new System.Drawing.Point(364, 20);
             this.northButton.Margin = new System.Windows.Forms.Padding(2);
             this.northButton.Name = "northButton";
             this.northButton.Size = new System.Drawing.Size(57, 25);
@@ -105,7 +106,7 @@
             // 
             // treasureButton
             // 
-            this.treasureButton.Location = new System.Drawing.Point(180, 308);
+            this.treasureButton.Location = new System.Drawing.Point(185, 308);
             this.treasureButton.Margin = new System.Windows.Forms.Padding(2);
             this.treasureButton.Name = "treasureButton";
             this.treasureButton.Size = new System.Drawing.Size(63, 23);
@@ -116,7 +117,7 @@
             // 
             // potionsButton
             // 
-            this.potionsButton.Location = new System.Drawing.Point(180, 283);
+            this.potionsButton.Location = new System.Drawing.Point(185, 283);
             this.potionsButton.Margin = new System.Windows.Forms.Padding(2);
             this.potionsButton.Name = "potionsButton";
             this.potionsButton.Size = new System.Drawing.Size(63, 23);
@@ -127,7 +128,7 @@
             // 
             // weaponsButton
             // 
-            this.weaponsButton.Location = new System.Drawing.Point(180, 257);
+            this.weaponsButton.Location = new System.Drawing.Point(185, 257);
             this.weaponsButton.Margin = new System.Windows.Forms.Padding(2);
             this.weaponsButton.Name = "weaponsButton";
             this.weaponsButton.Size = new System.Drawing.Size(63, 23);
@@ -163,7 +164,7 @@
             this.roomStatusLabel.Location = new System.Drawing.Point(432, 20);
             this.roomStatusLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.roomStatusLabel.Name = "roomStatusLabel";
-            this.roomStatusLabel.Size = new System.Drawing.Size(72, 54);
+            this.roomStatusLabel.Size = new System.Drawing.Size(94, 54);
             this.roomStatusLabel.TabIndex = 14;
             this.roomStatusLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -304,7 +305,7 @@
             "Forge",
             "Prison",
             "Laboratory"});
-            this.roomListBox.Location = new System.Drawing.Point(365, 114);
+            this.roomListBox.Location = new System.Drawing.Point(365, 112);
             this.roomListBox.Name = "roomListBox";
             this.roomListBox.Size = new System.Drawing.Size(161, 69);
             this.roomListBox.TabIndex = 36;
@@ -312,24 +313,24 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(368, 98);
+            this.label2.Location = new System.Drawing.Point(368, 96);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(71, 13);
             this.label2.TabIndex = 37;
             this.label2.Text = "Select Room:";
             // 
-            // listBox1
+            // roomOutListBox
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(371, 262);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(161, 95);
-            this.listBox1.TabIndex = 38;
+            this.roomOutListBox.FormattingEnabled = true;
+            this.roomOutListBox.Location = new System.Drawing.Point(365, 249);
+            this.roomOutListBox.Name = "roomOutListBox";
+            this.roomOutListBox.Size = new System.Drawing.Size(161, 108);
+            this.roomOutListBox.TabIndex = 38;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(373, 247);
+            this.label3.Location = new System.Drawing.Point(366, 233);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(75, 13);
             this.label3.TabIndex = 39;
@@ -344,14 +345,26 @@
             this.label4.TabIndex = 40;
             this.label4.Text = "Mob Display:";
             // 
+            // loadRoomsButton
+            // 
+            this.loadRoomsButton.Location = new System.Drawing.Point(364, 188);
+            this.loadRoomsButton.Margin = new System.Windows.Forms.Padding(2);
+            this.loadRoomsButton.Name = "loadRoomsButton";
+            this.loadRoomsButton.Size = new System.Drawing.Size(75, 25);
+            this.loadRoomsButton.TabIndex = 41;
+            this.loadRoomsButton.Text = "Load Rooms";
+            this.loadRoomsButton.UseVisualStyleBackColor = true;
+            this.loadRoomsButton.Click += new System.EventHandler(this.loadRoomsButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(547, 372);
+            this.Controls.Add(this.loadRoomsButton);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.roomOutListBox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.roomListBox);
             this.Controls.Add(this.label1);
@@ -412,9 +425,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ListBox roomListBox;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox roomOutListBox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button loadRoomsButton;
     }
 }
 

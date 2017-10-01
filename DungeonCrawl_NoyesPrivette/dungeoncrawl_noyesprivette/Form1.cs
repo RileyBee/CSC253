@@ -414,5 +414,58 @@ namespace DungeonCrawl_NoyesPrivette
         {
             LoadPlayers();
         }
+
+        private void loadRoomsButton_Click(object sender, EventArgs e)
+        {
+            // streamreaders for rooms.
+            StreamReader roomsInFile;
+
+
+            // Set roomsInFile to name of currently selected room.
+            roomsInFile = File.OpenText(roomListBox.SelectedItem + ".txt");
+
+
+            // Creating instance of room struct.
+            RoomInfo rooms = new RoomInfo();
+
+            // name field
+            rooms.roomName = roomsInFile.ReadLine();
+
+            // description field
+            rooms.roomDescription = roomsInFile.ReadLine();
+                        
+            // Climate field
+            string roomClimate = roomsInFile.ReadLine();
+
+
+
+            // identify room climate.
+            RoomInfo.Climate climate;
+            if (roomClimate == "0")
+            {
+                climate = RoomInfo.Climate.Cold;
+            }
+
+            else if (roomClimate == "1")
+            {
+                climate = RoomInfo.Climate.Temperate;
+            }
+
+            else 
+            {
+                climate = RoomInfo.Climate.Warm;
+            }
+
+                                    
+            
+            // creating a list to add class and race to to use list for list box data source
+            List<string> roomAttributes = new List<string>();
+            roomAttributes.Add("Name: " + rooms.roomName.ToString());
+            roomAttributes.Add("Description: " + rooms.roomDescription.ToString());
+            roomAttributes.Add("Climate: " + climate.ToString());
+
+
+            roomOutListBox.DataSource = roomAttributes;
+        }
     }
 }
