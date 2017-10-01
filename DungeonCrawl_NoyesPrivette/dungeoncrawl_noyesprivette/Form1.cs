@@ -182,7 +182,7 @@ namespace DungeonCrawl_NoyesPrivette
             StreamReader mobInFile;
 
 
-            // whatever mob is highlighted in text box is the name of file for that player
+            // Set mobInFile to name of currently selected mob.
             mobInFile = File.OpenText(mobListBox.SelectedItem + ".txt");          
             
 
@@ -331,11 +331,13 @@ namespace DungeonCrawl_NoyesPrivette
         {
             // streamreader for individual player file
             StreamReader playerInFile;
+
             // whatever player is highlighted in text box is the name of file for that player
             playerInFile = File.OpenText(playersListBox.SelectedItem + ".txt");
 
             // creating player info struct instance
             PlayerInfo currentPlayer = new PlayerInfo();
+
             // first line of individual player file is name. second is password
             currentPlayer.name = playerInFile.ReadLine();
             currentPlayer.password = playerInFile.ReadLine();
