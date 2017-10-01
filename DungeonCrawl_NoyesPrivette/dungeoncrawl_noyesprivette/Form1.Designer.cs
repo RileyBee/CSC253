@@ -61,10 +61,10 @@
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(259, 324);
+            this.exitButton.Location = new System.Drawing.Point(263, 324);
             this.exitButton.Margin = new System.Windows.Forms.Padding(2);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(78, 33);
+            this.exitButton.Size = new System.Drawing.Size(74, 33);
             this.exitButton.TabIndex = 23;
             this.exitButton.Text = "Exit";
             this.exitButton.UseVisualStyleBackColor = true;
@@ -139,7 +139,7 @@
             // 
             // mobsButton
             // 
-            this.mobsButton.Location = new System.Drawing.Point(11, 79);
+            this.mobsButton.Location = new System.Drawing.Point(11, 81);
             this.mobsButton.Margin = new System.Windows.Forms.Padding(2);
             this.mobsButton.Name = "mobsButton";
             this.mobsButton.Size = new System.Drawing.Size(75, 25);
@@ -240,10 +240,10 @@
             // 
             // refreshButton
             // 
-            this.refreshButton.Location = new System.Drawing.Point(259, 257);
+            this.refreshButton.Location = new System.Drawing.Point(263, 257);
             this.refreshButton.Margin = new System.Windows.Forms.Padding(2);
             this.refreshButton.Name = "refreshButton";
-            this.refreshButton.Size = new System.Drawing.Size(78, 32);
+            this.refreshButton.Size = new System.Drawing.Size(74, 32);
             this.refreshButton.TabIndex = 30;
             this.refreshButton.Text = "Refresh";
             this.refreshButton.UseVisualStyleBackColor = true;
@@ -347,7 +347,7 @@
             // 
             // loadRoomsButton
             // 
-            this.loadRoomsButton.Location = new System.Drawing.Point(364, 188);
+            this.loadRoomsButton.Location = new System.Drawing.Point(364, 190);
             this.loadRoomsButton.Margin = new System.Windows.Forms.Padding(2);
             this.loadRoomsButton.Name = "loadRoomsButton";
             this.loadRoomsButton.Size = new System.Drawing.Size(75, 25);
