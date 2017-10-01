@@ -86,7 +86,7 @@ namespace DungeonCrawl_NoyesPrivette
             playerList.WriteLine(playName);
             playerList.Close();                                                
 
-            // Password Evaluation method.
+            // Password input.
             string password = passTextBox.Text;
 
             //Validate password.
@@ -94,13 +94,14 @@ namespace DungeonCrawl_NoyesPrivette
                 LowerCaseCount(password) >= 1 &&
                 SpecialCharCount(password) >= 1)
             {
-
-                //Write out file.
-                
+                                               
                 // Create streamwrite object for player file.
                 StreamWriter playerCreationFile;
 
-                // Player attributes.
+                /* 
+                 *  Write player attributes and inform player  
+                 *  character creation was successful.
+                */
                 playerCreationFile = File.CreateText(playName + ".txt");
                 playerCreationFile.WriteLine(playName);
                 playerCreationFile.WriteLine(password);

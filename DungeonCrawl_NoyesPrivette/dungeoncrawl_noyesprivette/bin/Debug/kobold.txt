@@ -1,0 +1,7 @@
+Kobold
+Reptilian humanoid
+4
+1
+1
+
+

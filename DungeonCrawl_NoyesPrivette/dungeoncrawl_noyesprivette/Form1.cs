@@ -24,8 +24,28 @@ namespace DungeonCrawl_NoyesPrivette
     {
         public string name;
         public string password;
-        public enum Classes {Thief,Mage,Warrior,Cleric,Barbarian}
-        public enum Race {Human,Elf,Orc,Goblin,Dwarf}
+        public enum Classes { Thief, Mage, Warrior, Cleric, Barbarian }
+        public enum Race { Human, Elf, Orc, Goblin, Dwarf }
+    
+    }
+
+    // Struct to hold mob attributes
+    struct MobInfo
+    {
+        public string name;
+        public string mobDescription;
+        public string mobHealth;        
+        public enum PrimaryStat { Strength, Dexterity, Intelligence, Wisdom }
+        public enum ArmorClass { Cloth, Leather, Mail, Plate }
+        
+    }
+
+    // Struct to hold room attributes.
+    struct RoomInfo
+    {
+        public string roomName;
+        public string roomDescription;
+        public enum Climate {Cold,Temperate,Warm} 
     }
 
     public partial class Form1 : Form
@@ -42,6 +62,7 @@ namespace DungeonCrawl_NoyesPrivette
 
             // initializing list box with list of saved players
             LoadPlayers();
+            
         }
 
         // loads saved players from file into list box
@@ -64,7 +85,9 @@ namespace DungeonCrawl_NoyesPrivette
             playersInFile.Close();
         }
 
-        // method to return correct room to different the North and South button click events
+       
+
+        // method to return correct room to differentiate the North and South button click events
         private string RoomFinder(int index)
         {
             // Create and initializle weapons array.
@@ -154,17 +177,89 @@ namespace DungeonCrawl_NoyesPrivette
 
         private void mobsButton_Click(object sender, EventArgs e)
         {
-            // Clear ListBox
-            displayListBox.Items.Clear();
+            // streamreaders for mobs.
+            StreamReader mobInFile;
 
-            // Create and initialize mob list
-            List<string> mobs = new List<string> { "Orcs", "Trolls", "Drow", "Undead", "Vermin" };
 
-            // Add to ListBox
-            foreach (string tmp in mobs)
+            // whatever player is highlighted in text box is the name of file for that player
+            mobInFile = File.OpenText(mobListBox.SelectedItem + ".txt");          
+            
+
+            // Creating instance of mob struct.
+            MobInfo mobUnit = new MobInfo();
+
+            // name field
+            mobUnit.name = mobInFile.ReadLine();
+
+            // description field
+            mobUnit.mobDescription = mobInFile.ReadLine();
+
+            // Mob health field
+            mobUnit.mobHealth = mobInFile.ReadLine();
+
+            // Primary mob stats
+            string primaryStats = mobInFile.ReadLine();
+
+            // Armor Class
+            string armorClass = mobInFile.ReadLine();
+
+
+
+            // identify mob's primary stat
+            MobInfo.PrimaryStat primaryStat;
+            if (primaryStats == "0")
             {
-                displayListBox.Items.Add(tmp);
+                primaryStat = MobInfo.PrimaryStat.Strength;
             }
+
+            else if (primaryStats == "1")
+            {
+                primaryStat = MobInfo.PrimaryStat.Dexterity;
+            }
+
+            else if (primaryStats == "2")
+            {
+                primaryStat = MobInfo.PrimaryStat.Intelligence;
+            }
+
+            else 
+            {
+                primaryStat = MobInfo.PrimaryStat.Wisdom;
+            }
+            
+
+            // identify mob's armor class
+            MobInfo.ArmorClass armClass;
+            if (armorClass == "0")
+            {
+                armClass = MobInfo.ArmorClass.Cloth;
+            }
+
+            else if (armorClass == "1")
+            {
+                armClass = MobInfo.ArmorClass.Leather;
+            }
+
+            else if (armorClass == "2")
+            {
+                armClass = MobInfo.ArmorClass.Mail;
+            }
+
+            else 
+            {
+                armClass = MobInfo.ArmorClass.Plate;
+            }
+                                                
+
+            // creating a list to add class and race to to use list for list box data source
+            List<string> mobAttributes = new List<string>();
+            mobAttributes.Add("Name: " + mobUnit.name.ToString());
+            mobAttributes.Add("Description: " + mobUnit.mobDescription.ToString());
+            mobAttributes.Add("Mob Health: " + mobUnit.mobHealth.ToString());
+            mobAttributes.Add("Primary Stat: " + primaryStat.ToString());
+            mobAttributes.Add("Armor Class: " + armClass.ToString());
+
+            displayListBox.DataSource = mobAttributes;
         }
 
         private void itemsButton_Click(object sender, EventArgs e)
