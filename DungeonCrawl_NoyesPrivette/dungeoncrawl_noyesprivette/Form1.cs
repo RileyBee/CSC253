@@ -181,7 +181,7 @@ namespace DungeonCrawl_NoyesPrivette
             StreamReader mobInFile;
 
 
-            // whatever player is highlighted in text box is the name of file for that player
+            // whatever mob is highlighted in text box is the name of file for that player
             mobInFile = File.OpenText(mobListBox.SelectedItem + ".txt");          
             
 
@@ -249,7 +249,9 @@ namespace DungeonCrawl_NoyesPrivette
             {
                 armClass = MobInfo.ArmorClass.Plate;
             }
-                                                
+
+            // Clear ListBox
+            displayListBox.Items.Clear();
 
             // creating a list to add class and race to to use list for list box data source
             List<string> mobAttributes = new List<string>();

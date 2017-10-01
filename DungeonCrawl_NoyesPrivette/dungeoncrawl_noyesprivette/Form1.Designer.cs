@@ -51,8 +51,8 @@
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(377, 230);
-            this.exitButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.exitButton.Location = new System.Drawing.Point(411, 230);
+            this.exitButton.Margin = new System.Windows.Forms.Padding(2);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(69, 24);
             this.exitButton.TabIndex = 23;
@@ -62,8 +62,8 @@
             // 
             // itemsButton
             // 
-            this.itemsButton.Location = new System.Drawing.Point(307, 202);
-            this.itemsButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.itemsButton.Location = new System.Drawing.Point(341, 202);
+            this.itemsButton.Margin = new System.Windows.Forms.Padding(2);
             this.itemsButton.Name = "itemsButton";
             this.itemsButton.Size = new System.Drawing.Size(63, 23);
             this.itemsButton.TabIndex = 22;
@@ -74,8 +74,8 @@
             // southButton
             // 
             this.southButton.Enabled = false;
-            this.southButton.Location = new System.Drawing.Point(376, 192);
-            this.southButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.southButton.Location = new System.Drawing.Point(410, 192);
+            this.southButton.Margin = new System.Windows.Forms.Padding(2);
             this.southButton.Name = "southButton";
             this.southButton.Size = new System.Drawing.Size(70, 32);
             this.southButton.TabIndex = 21;
@@ -85,8 +85,8 @@
             // 
             // northButton
             // 
-            this.northButton.Location = new System.Drawing.Point(376, 157);
-            this.northButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.northButton.Location = new System.Drawing.Point(410, 157);
+            this.northButton.Margin = new System.Windows.Forms.Padding(2);
             this.northButton.Name = "northButton";
             this.northButton.Size = new System.Drawing.Size(70, 31);
             this.northButton.TabIndex = 20;
@@ -96,8 +96,8 @@
             // 
             // treasureButton
             // 
-            this.treasureButton.Location = new System.Drawing.Point(307, 175);
-            this.treasureButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.treasureButton.Location = new System.Drawing.Point(341, 175);
+            this.treasureButton.Margin = new System.Windows.Forms.Padding(2);
             this.treasureButton.Name = "treasureButton";
             this.treasureButton.Size = new System.Drawing.Size(63, 23);
             this.treasureButton.TabIndex = 19;
@@ -107,8 +107,8 @@
             // 
             // potionsButton
             // 
-            this.potionsButton.Location = new System.Drawing.Point(307, 147);
-            this.potionsButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.potionsButton.Location = new System.Drawing.Point(341, 147);
+            this.potionsButton.Margin = new System.Windows.Forms.Padding(2);
             this.potionsButton.Name = "potionsButton";
             this.potionsButton.Size = new System.Drawing.Size(63, 23);
             this.potionsButton.TabIndex = 18;
@@ -118,8 +118,8 @@
             // 
             // weaponsButton
             // 
-            this.weaponsButton.Location = new System.Drawing.Point(307, 119);
-            this.weaponsButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.weaponsButton.Location = new System.Drawing.Point(341, 119);
+            this.weaponsButton.Margin = new System.Windows.Forms.Padding(2);
             this.weaponsButton.Name = "weaponsButton";
             this.weaponsButton.Size = new System.Drawing.Size(63, 23);
             this.weaponsButton.TabIndex = 17;
@@ -129,8 +129,8 @@
             // 
             // mobsButton
             // 
-            this.mobsButton.Location = new System.Drawing.Point(307, 92);
-            this.mobsButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mobsButton.Location = new System.Drawing.Point(341, 92);
+            this.mobsButton.Margin = new System.Windows.Forms.Padding(2);
             this.mobsButton.Name = "mobsButton";
             this.mobsButton.Size = new System.Drawing.Size(63, 23);
             this.mobsButton.TabIndex = 16;
@@ -141,7 +141,7 @@
             // roomDescLabel
             // 
             this.roomDescLabel.AutoSize = true;
-            this.roomDescLabel.Location = new System.Drawing.Point(375, 89);
+            this.roomDescLabel.Location = new System.Drawing.Point(409, 89);
             this.roomDescLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.roomDescLabel.Name = "roomDescLabel";
             this.roomDescLabel.Size = new System.Drawing.Size(72, 13);
@@ -151,7 +151,7 @@
             // roomStatusLabel
             // 
             this.roomStatusLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.roomStatusLabel.Location = new System.Drawing.Point(375, 103);
+            this.roomStatusLabel.Location = new System.Drawing.Point(409, 103);
             this.roomStatusLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.roomStatusLabel.Name = "roomStatusLabel";
             this.roomStatusLabel.Size = new System.Drawing.Size(72, 52);
@@ -162,15 +162,15 @@
             // 
             this.displayListBox.FormattingEnabled = true;
             this.displayListBox.Location = new System.Drawing.Point(9, 10);
-            this.displayListBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.displayListBox.Margin = new System.Windows.Forms.Padding(2);
             this.displayListBox.Name = "displayListBox";
-            this.displayListBox.Size = new System.Drawing.Size(140, 134);
+            this.displayListBox.Size = new System.Drawing.Size(163, 134);
             this.displayListBox.TabIndex = 13;
             // 
             // playerFormButton
             // 
-            this.playerFormButton.Location = new System.Drawing.Point(375, 259);
-            this.playerFormButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.playerFormButton.Location = new System.Drawing.Point(409, 259);
+            this.playerFormButton.Margin = new System.Windows.Forms.Padding(2);
             this.playerFormButton.Name = "playerFormButton";
             this.playerFormButton.Size = new System.Drawing.Size(71, 36);
             this.playerFormButton.TabIndex = 24;
@@ -181,16 +181,16 @@
             // currentPlayerListBox
             // 
             this.currentPlayerListBox.FormattingEnabled = true;
-            this.currentPlayerListBox.Location = new System.Drawing.Point(8, 159);
-            this.currentPlayerListBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.currentPlayerListBox.Location = new System.Drawing.Point(9, 159);
+            this.currentPlayerListBox.Margin = new System.Windows.Forms.Padding(2);
             this.currentPlayerListBox.Name = "currentPlayerListBox";
-            this.currentPlayerListBox.Size = new System.Drawing.Size(140, 134);
+            this.currentPlayerListBox.Size = new System.Drawing.Size(163, 134);
             this.currentPlayerListBox.TabIndex = 25;
             // 
             // playerDescLabel
             // 
             this.playerDescLabel.AutoSize = true;
-            this.playerDescLabel.Location = new System.Drawing.Point(339, 5);
+            this.playerDescLabel.Location = new System.Drawing.Point(373, 5);
             this.playerDescLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.playerDescLabel.Name = "playerDescLabel";
             this.playerDescLabel.Size = new System.Drawing.Size(73, 13);
@@ -201,7 +201,7 @@
             // 
             this.playerNameLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.playerNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.playerNameLabel.Location = new System.Drawing.Point(307, 24);
+            this.playerNameLabel.Location = new System.Drawing.Point(341, 24);
             this.playerNameLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.playerNameLabel.Name = "playerNameLabel";
             this.playerNameLabel.Size = new System.Drawing.Size(139, 36);
@@ -211,16 +211,16 @@
             // playersListBox
             // 
             this.playersListBox.FormattingEnabled = true;
-            this.playersListBox.Location = new System.Drawing.Point(154, 159);
-            this.playersListBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.playersListBox.Location = new System.Drawing.Point(188, 159);
+            this.playersListBox.Margin = new System.Windows.Forms.Padding(2);
             this.playersListBox.Name = "playersListBox";
             this.playersListBox.Size = new System.Drawing.Size(140, 134);
             this.playersListBox.TabIndex = 28;
             // 
             // loadPlayerButton
             // 
-            this.loadPlayerButton.Location = new System.Drawing.Point(307, 230);
-            this.loadPlayerButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.loadPlayerButton.Location = new System.Drawing.Point(341, 230);
+            this.loadPlayerButton.Margin = new System.Windows.Forms.Padding(2);
             this.loadPlayerButton.Name = "loadPlayerButton";
             this.loadPlayerButton.Size = new System.Drawing.Size(63, 36);
             this.loadPlayerButton.TabIndex = 29;
@@ -230,8 +230,8 @@
             // 
             // refreshButton
             // 
-            this.refreshButton.Location = new System.Drawing.Point(307, 270);
-            this.refreshButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.refreshButton.Location = new System.Drawing.Point(341, 270);
+            this.refreshButton.Margin = new System.Windows.Forms.Padding(2);
             this.refreshButton.Name = "refreshButton";
             this.refreshButton.Size = new System.Drawing.Size(63, 24);
             this.refreshButton.TabIndex = 30;
@@ -247,7 +247,7 @@
             "Drow",
             "Orc",
             "Lich"});
-            this.mobListBox.Location = new System.Drawing.Point(154, 10);
+            this.mobListBox.Location = new System.Drawing.Point(188, 10);
             this.mobListBox.Name = "mobListBox";
             this.mobListBox.Size = new System.Drawing.Size(138, 134);
             this.mobListBox.TabIndex = 31;
@@ -256,7 +256,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(469, 307);
+            this.ClientSize = new System.Drawing.Size(488, 301);
             this.Controls.Add(this.mobListBox);
             this.Controls.Add(this.refreshButton);
             this.Controls.Add(this.loadPlayerButton);
@@ -276,7 +276,7 @@
             this.Controls.Add(this.roomDescLabel);
             this.Controls.Add(this.roomStatusLabel);
             this.Controls.Add(this.displayListBox);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Dungeon Crawl";
             this.ResumeLayout(false);
