@@ -50,14 +50,20 @@
             this.InventoryListBox = new System.Windows.Forms.ListBox();
             this.mobDescLabel = new System.Windows.Forms.Label();
             this.playerSelectLabel = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.roomListBox = new System.Windows.Forms.ListBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(255, 278);
+            this.exitButton.Location = new System.Drawing.Point(259, 324);
             this.exitButton.Margin = new System.Windows.Forms.Padding(2);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(69, 24);
+            this.exitButton.Size = new System.Drawing.Size(78, 33);
             this.exitButton.TabIndex = 23;
             this.exitButton.Text = "Exit";
             this.exitButton.UseVisualStyleBackColor = true;
@@ -65,7 +71,7 @@
             // 
             // itemsButton
             // 
-            this.itemsButton.Location = new System.Drawing.Point(185, 254);
+            this.itemsButton.Location = new System.Drawing.Point(180, 334);
             this.itemsButton.Margin = new System.Windows.Forms.Padding(2);
             this.itemsButton.Name = "itemsButton";
             this.itemsButton.Size = new System.Drawing.Size(63, 23);
@@ -77,10 +83,10 @@
             // southButton
             // 
             this.southButton.Enabled = false;
-            this.southButton.Location = new System.Drawing.Point(254, 239);
+            this.southButton.Location = new System.Drawing.Point(366, 49);
             this.southButton.Margin = new System.Windows.Forms.Padding(2);
             this.southButton.Name = "southButton";
-            this.southButton.Size = new System.Drawing.Size(70, 32);
+            this.southButton.Size = new System.Drawing.Size(57, 25);
             this.southButton.TabIndex = 21;
             this.southButton.Text = "SOUTH";
             this.southButton.UseVisualStyleBackColor = true;
@@ -88,10 +94,10 @@
             // 
             // northButton
             // 
-            this.northButton.Location = new System.Drawing.Point(254, 202);
+            this.northButton.Location = new System.Drawing.Point(365, 20);
             this.northButton.Margin = new System.Windows.Forms.Padding(2);
             this.northButton.Name = "northButton";
-            this.northButton.Size = new System.Drawing.Size(70, 31);
+            this.northButton.Size = new System.Drawing.Size(57, 25);
             this.northButton.TabIndex = 20;
             this.northButton.Text = "NORTH";
             this.northButton.UseVisualStyleBackColor = true;
@@ -99,7 +105,7 @@
             // 
             // treasureButton
             // 
-            this.treasureButton.Location = new System.Drawing.Point(185, 227);
+            this.treasureButton.Location = new System.Drawing.Point(180, 308);
             this.treasureButton.Margin = new System.Windows.Forms.Padding(2);
             this.treasureButton.Name = "treasureButton";
             this.treasureButton.Size = new System.Drawing.Size(63, 23);
@@ -110,7 +116,7 @@
             // 
             // potionsButton
             // 
-            this.potionsButton.Location = new System.Drawing.Point(185, 200);
+            this.potionsButton.Location = new System.Drawing.Point(180, 283);
             this.potionsButton.Margin = new System.Windows.Forms.Padding(2);
             this.potionsButton.Name = "potionsButton";
             this.potionsButton.Size = new System.Drawing.Size(63, 23);
@@ -121,7 +127,7 @@
             // 
             // weaponsButton
             // 
-            this.weaponsButton.Location = new System.Drawing.Point(185, 175);
+            this.weaponsButton.Location = new System.Drawing.Point(180, 257);
             this.weaponsButton.Margin = new System.Windows.Forms.Padding(2);
             this.weaponsButton.Name = "weaponsButton";
             this.weaponsButton.Size = new System.Drawing.Size(63, 23);
@@ -132,10 +138,10 @@
             // 
             // mobsButton
             // 
-            this.mobsButton.Location = new System.Drawing.Point(185, 130);
+            this.mobsButton.Location = new System.Drawing.Point(11, 79);
             this.mobsButton.Margin = new System.Windows.Forms.Padding(2);
             this.mobsButton.Name = "mobsButton";
-            this.mobsButton.Size = new System.Drawing.Size(63, 43);
+            this.mobsButton.Size = new System.Drawing.Size(75, 25);
             this.mobsButton.TabIndex = 16;
             this.mobsButton.Text = "Load Mobs";
             this.mobsButton.UseVisualStyleBackColor = true;
@@ -144,7 +150,7 @@
             // roomDescLabel
             // 
             this.roomDescLabel.AutoSize = true;
-            this.roomDescLabel.Location = new System.Drawing.Point(253, 129);
+            this.roomDescLabel.Location = new System.Drawing.Point(430, 6);
             this.roomDescLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.roomDescLabel.Name = "roomDescLabel";
             this.roomDescLabel.Size = new System.Drawing.Size(72, 13);
@@ -154,37 +160,37 @@
             // roomStatusLabel
             // 
             this.roomStatusLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.roomStatusLabel.Location = new System.Drawing.Point(253, 143);
+            this.roomStatusLabel.Location = new System.Drawing.Point(432, 20);
             this.roomStatusLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.roomStatusLabel.Name = "roomStatusLabel";
-            this.roomStatusLabel.Size = new System.Drawing.Size(72, 52);
+            this.roomStatusLabel.Size = new System.Drawing.Size(72, 54);
             this.roomStatusLabel.TabIndex = 14;
             this.roomStatusLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // displayListBox
             // 
             this.displayListBox.FormattingEnabled = true;
-            this.displayListBox.Location = new System.Drawing.Point(9, 11);
+            this.displayListBox.Location = new System.Drawing.Point(11, 129);
             this.displayListBox.Margin = new System.Windows.Forms.Padding(2);
             this.displayListBox.Name = "displayListBox";
-            this.displayListBox.Size = new System.Drawing.Size(163, 160);
+            this.displayListBox.Size = new System.Drawing.Size(163, 108);
             this.displayListBox.TabIndex = 13;
             // 
             // playerFormButton
             // 
-            this.playerFormButton.Location = new System.Drawing.Point(253, 309);
+            this.playerFormButton.Location = new System.Drawing.Point(185, 212);
             this.playerFormButton.Margin = new System.Windows.Forms.Padding(2);
             this.playerFormButton.Name = "playerFormButton";
-            this.playerFormButton.Size = new System.Drawing.Size(71, 36);
+            this.playerFormButton.Size = new System.Drawing.Size(75, 36);
             this.playerFormButton.TabIndex = 24;
-            this.playerFormButton.Text = "Create New Player";
+            this.playerFormButton.Text = "Create Player";
             this.playerFormButton.UseVisualStyleBackColor = true;
             this.playerFormButton.Click += new System.EventHandler(this.playerFormButton_Click);
             // 
             // currentPlayerListBox
             // 
             this.currentPlayerListBox.FormattingEnabled = true;
-            this.currentPlayerListBox.Location = new System.Drawing.Point(185, 70);
+            this.currentPlayerListBox.Location = new System.Drawing.Point(185, 59);
             this.currentPlayerListBox.Margin = new System.Windows.Forms.Padding(2);
             this.currentPlayerListBox.Name = "currentPlayerListBox";
             this.currentPlayerListBox.Size = new System.Drawing.Size(139, 56);
@@ -193,7 +199,7 @@
             // playerDescLabel
             // 
             this.playerDescLabel.AutoSize = true;
-            this.playerDescLabel.Location = new System.Drawing.Point(217, 13);
+            this.playerDescLabel.Location = new System.Drawing.Point(217, 2);
             this.playerDescLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.playerDescLabel.Name = "playerDescLabel";
             this.playerDescLabel.Size = new System.Drawing.Size(73, 13);
@@ -204,7 +210,7 @@
             // 
             this.playerNameLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.playerNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.playerNameLabel.Location = new System.Drawing.Point(185, 29);
+            this.playerNameLabel.Location = new System.Drawing.Point(185, 18);
             this.playerNameLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.playerNameLabel.Name = "playerNameLabel";
             this.playerNameLabel.Size = new System.Drawing.Size(139, 36);
@@ -214,18 +220,18 @@
             // playersListBox
             // 
             this.playersListBox.FormattingEnabled = true;
-            this.playersListBox.Location = new System.Drawing.Point(342, 19);
+            this.playersListBox.Location = new System.Drawing.Point(185, 138);
             this.playersListBox.Margin = new System.Windows.Forms.Padding(2);
             this.playersListBox.Name = "playersListBox";
-            this.playersListBox.Size = new System.Drawing.Size(161, 160);
+            this.playersListBox.Size = new System.Drawing.Size(152, 69);
             this.playersListBox.TabIndex = 28;
             // 
             // loadPlayerButton
             // 
-            this.loadPlayerButton.Location = new System.Drawing.Point(185, 281);
+            this.loadPlayerButton.Location = new System.Drawing.Point(263, 212);
             this.loadPlayerButton.Margin = new System.Windows.Forms.Padding(2);
             this.loadPlayerButton.Name = "loadPlayerButton";
-            this.loadPlayerButton.Size = new System.Drawing.Size(63, 36);
+            this.loadPlayerButton.Size = new System.Drawing.Size(74, 36);
             this.loadPlayerButton.TabIndex = 29;
             this.loadPlayerButton.Text = "Load Player";
             this.loadPlayerButton.UseVisualStyleBackColor = true;
@@ -233,10 +239,10 @@
             // 
             // refreshButton
             // 
-            this.refreshButton.Location = new System.Drawing.Point(185, 320);
+            this.refreshButton.Location = new System.Drawing.Point(259, 257);
             this.refreshButton.Margin = new System.Windows.Forms.Padding(2);
             this.refreshButton.Name = "refreshButton";
-            this.refreshButton.Size = new System.Drawing.Size(63, 24);
+            this.refreshButton.Size = new System.Drawing.Size(78, 32);
             this.refreshButton.TabIndex = 30;
             this.refreshButton.Text = "Refresh";
             this.refreshButton.UseVisualStyleBackColor = true;
@@ -250,23 +256,23 @@
             "Drow",
             "Orc",
             "Lich"});
-            this.mobListBox.Location = new System.Drawing.Point(9, 195);
+            this.mobListBox.Location = new System.Drawing.Point(11, 18);
             this.mobListBox.Name = "mobListBox";
-            this.mobListBox.Size = new System.Drawing.Size(163, 147);
+            this.mobListBox.Size = new System.Drawing.Size(163, 56);
             this.mobListBox.TabIndex = 31;
             // 
             // InventoryListBox
             // 
             this.InventoryListBox.FormattingEnabled = true;
-            this.InventoryListBox.Location = new System.Drawing.Point(342, 185);
+            this.InventoryListBox.Location = new System.Drawing.Point(12, 262);
             this.InventoryListBox.Name = "InventoryListBox";
-            this.InventoryListBox.Size = new System.Drawing.Size(161, 160);
+            this.InventoryListBox.Size = new System.Drawing.Size(163, 95);
             this.InventoryListBox.TabIndex = 32;
             // 
             // mobDescLabel
             // 
             this.mobDescLabel.AutoSize = true;
-            this.mobDescLabel.Location = new System.Drawing.Point(9, 180);
+            this.mobDescLabel.Location = new System.Drawing.Point(11, 3);
             this.mobDescLabel.Name = "mobDescLabel";
             this.mobDescLabel.Size = new System.Drawing.Size(67, 13);
             this.mobDescLabel.TabIndex = 33;
@@ -275,17 +281,80 @@
             // playerSelectLabel
             // 
             this.playerSelectLabel.AutoSize = true;
-            this.playerSelectLabel.Location = new System.Drawing.Point(344, 4);
+            this.playerSelectLabel.Location = new System.Drawing.Point(187, 123);
             this.playerSelectLabel.Name = "playerSelectLabel";
             this.playerSelectLabel.Size = new System.Drawing.Size(72, 13);
             this.playerSelectLabel.TabIndex = 34;
             this.playerSelectLabel.Text = "Select Player:";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 246);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(54, 13);
+            this.label1.TabIndex = 35;
+            this.label1.Text = "Inventory:";
+            // 
+            // roomListBox
+            // 
+            this.roomListBox.FormattingEnabled = true;
+            this.roomListBox.Items.AddRange(new object[] {
+            "Crypt",
+            "Forge",
+            "Prison",
+            "Laboratory"});
+            this.roomListBox.Location = new System.Drawing.Point(365, 114);
+            this.roomListBox.Name = "roomListBox";
+            this.roomListBox.Size = new System.Drawing.Size(161, 69);
+            this.roomListBox.TabIndex = 36;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(368, 98);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(71, 13);
+            this.label2.TabIndex = 37;
+            this.label2.Text = "Select Room:";
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(371, 262);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(161, 95);
+            this.listBox1.TabIndex = 38;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(373, 247);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(75, 13);
+            this.label3.TabIndex = 39;
+            this.label3.Text = "Room Display:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(12, 114);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(68, 13);
+            this.label4.TabIndex = 40;
+            this.label4.Text = "Mob Display:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(516, 353);
+            this.ClientSize = new System.Drawing.Size(547, 372);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.roomListBox);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.playerSelectLabel);
             this.Controls.Add(this.mobDescLabel);
             this.Controls.Add(this.InventoryListBox);
@@ -340,6 +409,12 @@
         private System.Windows.Forms.ListBox InventoryListBox;
         private System.Windows.Forms.Label mobDescLabel;
         private System.Windows.Forms.Label playerSelectLabel;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ListBox roomListBox;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
 

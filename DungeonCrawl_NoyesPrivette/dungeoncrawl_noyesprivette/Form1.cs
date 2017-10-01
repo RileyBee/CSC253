@@ -251,9 +251,7 @@ namespace DungeonCrawl_NoyesPrivette
                 armClass = MobInfo.ArmorClass.Plate;
             }
 
-            // Clear ListBox
-            displayListBox.Items.Clear();
-
+            
             // creating a list to add class and race to to use list for list box data source
             List<string> mobAttributes = new List<string>();
             mobAttributes.Add("Name: " + mobUnit.name.ToString());
