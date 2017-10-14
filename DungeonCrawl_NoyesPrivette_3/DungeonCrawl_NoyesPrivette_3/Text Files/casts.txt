@@ -1,0 +1,5 @@
+﻿Barbarian,blah blah blah,5,5,5,5,5
+Cleric,blah blah blah,5,5,5,5,5
+Mage,blah blah blah,5,5,5,5,5
+Thief,blah blah blah,5,5,5,5,5
+Warrior,blah blah blah,5,5,5,5,5

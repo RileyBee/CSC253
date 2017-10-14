@@ -1,0 +1,5 @@
+﻿Dwarf,blah blah blah,-1,-1,-1,-1,-1
+Elf,blah blah blah,-1,-1,-1,-1,-1
+Goblin,blah blah blah,-1,-1,-1,-1,-1
+Human,blah blah blah,-1,-1,-1,-1,-1
+Orc,blah blah blah,-1,-1,-1,-1,-1

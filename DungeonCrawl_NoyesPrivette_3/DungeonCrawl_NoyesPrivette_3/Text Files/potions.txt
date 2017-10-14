@@ -1,0 +1,2 @@
+﻿Life,blah blah blah,Health
+Magic,blah blah blah,Mana

@@ -1,0 +1,4 @@
+﻿Compass,blah blah blah
+Key,blah blah blah
+Lantern,blah blah blah
+Map,blah blah blah

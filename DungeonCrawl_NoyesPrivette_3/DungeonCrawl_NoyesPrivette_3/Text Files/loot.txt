@@ -1,0 +1,3 @@
+﻿Gold,blah blah blah
+Ruby,blah blah blah
+Trophy,blah blah blah

@@ -1,0 +1,5 @@
+﻿Armory,blah blah blah
+Crypt,blah blah blah
+Forge,blah blah blah
+Laboratory,blah blah blah
+Prison,blah blah blah
