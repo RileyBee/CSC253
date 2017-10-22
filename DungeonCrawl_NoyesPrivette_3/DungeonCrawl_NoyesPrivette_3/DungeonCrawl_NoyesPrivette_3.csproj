@@ -54,6 +54,7 @@
     </Compile>
     <Compile Include="Classes\Battle.cs" />
     <Compile Include="Classes\Enemy.cs" />
+    <Compile Include="Classes\Roll.cs" />
     <Compile Include="Classes\Trinket.cs" />
     <Compile Include="Classes\Loot.cs" />
     <Compile Include="Classes\Potion.cs" />

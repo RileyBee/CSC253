@@ -1,5 +1,5 @@
-﻿Drow,blah blah blah,5,5,5,5,5
-Hydra,blah blah blah,5,5,5,5,5
-Kobold,blah blah blah,5,5,5,5,5
-Lich,blah blah blah,5,5,5,5,5
-Vermin,blah blah blah,5,5,5,5,5
+﻿Goblin,Sneaky and vicious,3,4,6,5,5
+Hydra,Reptilian monster,3,5,3,3,3
+Kobold,Dragon kin,1,2,2,1,1
+Lich,Undead mage,4,6,3,4,4
+Vermin,Insipid pests,1,2,1,1,1

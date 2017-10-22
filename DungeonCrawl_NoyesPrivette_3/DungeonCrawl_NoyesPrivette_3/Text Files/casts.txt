@@ -1,5 +1,5 @@
-﻿Barbarian,blah blah blah,5,5,5,5,5
-Cleric,blah blah blah,5,5,5,5,5
-Mage,blah blah blah,5,5,5,5,5
-Thief,blah blah blah,5,5,5,5,5
-Warrior,blah blah blah,5,5,5,5,5
+﻿Barbarian,2-handed melee,7,2,3,2,2
+Cleric,Hybrid magic & melee class,4,6,3,5,7
+Mage,Stave wielding magic class,3,3,3,7,5
+Thief, Dual-wielding melee class,6,3,7,3,3
+Warrior,Sword and Board,5,7,5,3,3

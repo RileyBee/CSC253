@@ -68,7 +68,7 @@ namespace DungeonCrawl_NoyesPrivette_3
                 MainForm mainForm2 = new MainForm(); // creating main form
                 mainForm2.startingPlayerName = startingPlayerList[0]; // adding starting player to main form field before displaying form
                 mainForm2.ShowDialog();
-                this.Close();
+                
             }
             else
             {
@@ -76,6 +76,9 @@ namespace DungeonCrawl_NoyesPrivette_3
             }
 
             startingPlayerInFile.Close(); // closing streamreader
+            
+
+
         }
     }
 }

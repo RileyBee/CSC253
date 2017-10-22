@@ -1,2 +1,2 @@
-﻿Life,blah blah blah,Health
-Magic,blah blah blah,Mana
+﻿Life,Restore hit points,Health
+Magic,Restore magic points,Mana

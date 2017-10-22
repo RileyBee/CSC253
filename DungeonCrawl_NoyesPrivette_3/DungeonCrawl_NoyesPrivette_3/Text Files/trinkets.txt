@@ -1,4 +1,4 @@
-﻿Compass,blah blah blah
-Key,blah blah blah
-Lantern,blah blah blah
-Map,blah blah blah
+﻿Compass,reveals hidden areas 
+Key, Opens locked chests
+Lantern, illuminates hidden loot
+Map, Can see 1 room forward

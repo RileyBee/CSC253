@@ -1,5 +1,5 @@
-﻿Armory,blah blah blah
-Crypt,blah blah blah
-Forge,blah blah blah
-Laboratory,blah blah blah
-Prison,blah blah blah
+﻿Armory,Weapons weapons weapons
+Crypt,Beware the undead
+Forge, Fire and brimstone 
+Laboratory, Evil alchemy
+Prison, It's empty - or is it.

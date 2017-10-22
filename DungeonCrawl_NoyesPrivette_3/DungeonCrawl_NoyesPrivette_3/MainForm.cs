@@ -27,6 +27,7 @@ namespace DungeonCrawl_NoyesPrivette_3
 
         // field to hold the name of active player brought over from intro form
         private string _startingPlayerName;
+        
 
         // creating objects for player
         // objects for other classes will be created by createObject method
@@ -71,6 +72,7 @@ namespace DungeonCrawl_NoyesPrivette_3
             roomObjectsList = new List<Room>();
 
             roomObjectsList.Add((Room)createObject("Room", "Armory"));
+
             // creating objects to set each room
             roomObjectsList[0].addEnemyToRoom((Enemy)createObject("Enemy", "Vermin"));
             roomObjectsList[0].addTreasureToChest((Potion)createObject("Potion", "Life"));
@@ -484,6 +486,7 @@ namespace DungeonCrawl_NoyesPrivette_3
             {
                 int roomIndex = 0;
                 int enemyIndex = 0;
+
                 // finding current room and recording the index where it exists in roomObjectsList to roomIndex
                 foreach (Room i in roomObjectsList)
                 {
@@ -506,14 +509,21 @@ namespace DungeonCrawl_NoyesPrivette_3
                 // creating new battle object and using roomIndex and enemyIndex to pass correct enemy
                 Battle battle1 = new Battle(player, roomObjectsList[roomIndex].enemiesList[enemyIndex]);
                 BattleForm battleForm1 = new BattleForm();
+
                 // passing just created battle object to just created battle form's currentBattle field
                 battleForm1.currentBattle = battle1;
                 battleForm1.ShowDialog(); // showing battle field
 
-                // upon conclusion of battle updating stats everywhere
+                // upon conclusion of battle updating stats everywhere                
+                if (roomObjectsList[roomIndex].enemiesList[enemyIndex].health < 1)
+                {
+                    roomObjectsList[roomIndex].removeEnemyFromRoom(roomObjectsList[roomIndex].enemiesList[enemyIndex]);
+                }
+
                 displayPlayer();
                 displayInventory();
                 displayRoom(roomIndex);
+
                 infoListBox.Items.Clear(); //clearing out info box 
             }
         }
