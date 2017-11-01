@@ -1,0 +1,40 @@
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\bin\Debug\DungeonCrawl_NoyesPrivette.exe.config
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\bin\Debug\DungeonCrawl_NoyesPrivette.exe
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\bin\Debug\DungeonCrawl_NoyesPrivette.pdb
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\obj\Debug\DungeonCrawl_NoyesPrivette.csprojResolveAssemblyReference.cache
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\obj\Debug\DungeonCrawl_NoyesPrivette.Form1.resources
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\obj\Debug\DungeonCrawl_NoyesPrivette.Player.resources
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\obj\Debug\DungeonCrawl_NoyesPrivette.Properties.Resources.resources
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\obj\Debug\DungeonCrawl_NoyesPrivette.csproj.GenerateResource.Cache
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\obj\Debug\DungeonCrawl_NoyesPrivette.exe
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\obj\Debug\DungeonCrawl_NoyesPrivette.pdb
+C:\Users\privetts3931\Desktop\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\bin\Debug\DungeonCrawl_NoyesPrivette.exe.config
+C:\Users\privetts3931\Desktop\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\obj\Debug\DungeonCrawl_NoyesPrivette.exe
+C:\Users\privetts3931\Desktop\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\obj\Debug\DungeonCrawl_NoyesPrivette.pdb
+C:\Users\privetts3931\Desktop\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\bin\Debug\DungeonCrawl_NoyesPrivette.exe
+C:\Users\privetts3931\Desktop\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\bin\Debug\DungeonCrawl_NoyesPrivette.pdb
+C:\Users\privetts3931\Desktop\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\obj\Debug\DungeonCrawl_NoyesPrivette.csprojResolveAssemblyReference.cache
+C:\Users\privetts3931\Desktop\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\obj\Debug\DungeonCrawl_NoyesPrivette.Form1.resources
+C:\Users\privetts3931\Desktop\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\obj\Debug\DungeonCrawl_NoyesPrivette.Player.resources
+C:\Users\privetts3931\Desktop\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\obj\Debug\DungeonCrawl_NoyesPrivette.Properties.Resources.resources
+C:\Users\privetts3931\Desktop\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\obj\Debug\DungeonCrawl_NoyesPrivette.csproj.GenerateResource.Cache
+H:\CSC253\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\bin\Debug\DungeonCrawl_NoyesPrivette.exe.config
+H:\CSC253\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\obj\Debug\DungeonCrawl_NoyesPrivette.exe
+H:\CSC253\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\obj\Debug\DungeonCrawl_NoyesPrivette.pdb
+H:\CSC253\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\bin\Debug\DungeonCrawl_NoyesPrivette.exe
+H:\CSC253\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\bin\Debug\DungeonCrawl_NoyesPrivette.pdb
+H:\CSC253\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\obj\Debug\DungeonCrawl_NoyesPrivette.csprojResolveAssemblyReference.cache
+H:\CSC253\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\obj\Debug\DungeonCrawl_NoyesPrivette.Form1.resources
+H:\CSC253\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\obj\Debug\DungeonCrawl_NoyesPrivette.Player.resources
+H:\CSC253\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\obj\Debug\DungeonCrawl_NoyesPrivette.Properties.Resources.resources
+H:\CSC253\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\obj\Debug\DungeonCrawl_NoyesPrivette.csproj.GenerateResource.Cache
+C:\Users\riley\Documents\GitHub\CSC253\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\bin\Debug\DungeonCrawl_NoyesPrivette.exe.config
+C:\Users\riley\Documents\GitHub\CSC253\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\obj\Debug\DungeonCrawl_NoyesPrivette.exe
+C:\Users\riley\Documents\GitHub\CSC253\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\obj\Debug\DungeonCrawl_NoyesPrivette.pdb
+C:\Users\riley\Documents\GitHub\CSC253\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\bin\Debug\DungeonCrawl_NoyesPrivette.exe
+C:\Users\riley\Documents\GitHub\CSC253\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\bin\Debug\DungeonCrawl_NoyesPrivette.pdb
+C:\Users\riley\Documents\GitHub\CSC253\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\obj\Debug\DungeonCrawl_NoyesPrivette.csprojResolveAssemblyReference.cache
+C:\Users\riley\Documents\GitHub\CSC253\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\obj\Debug\DungeonCrawl_NoyesPrivette.Form1.resources
+C:\Users\riley\Documents\GitHub\CSC253\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\obj\Debug\DungeonCrawl_NoyesPrivette.Player.resources
+C:\Users\riley\Documents\GitHub\CSC253\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\obj\Debug\DungeonCrawl_NoyesPrivette.Properties.Resources.resources
+C:\Users\riley\Documents\GitHub\CSC253\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette\obj\Debug\DungeonCrawl_NoyesPrivette.csproj.GenerateResource.Cache
