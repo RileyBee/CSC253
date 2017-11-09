@@ -73,14 +73,19 @@ namespace DungeonCrawl_NoyesPrivette_3
 
             roomObjectsList.Add((Room)createObject("Room", "Armory"));
 
-            // creating objects to set each room
             roomObjectsList[0].addEnemyToRoom((Enemy)createObject("Enemy", "Vermin"));
+            roomObjectsList[0].addEnemyToRoom((Enemy)createObject("Enemy", "Hydra"));
             roomObjectsList[0].addTreasureToChest((Potion)createObject("Potion", "Life"));
             roomObjectsList[0].addTreasureToChest((Trinket)createObject("Trinket", "Lantern"));
 
             roomObjectsList.Add((Room)createObject("Room", "Crypt"));
+
+            roomObjectsList[1].addEnemyToRoom((Enemy)createObject("Enemy", "Lich"));
+
             roomObjectsList.Add((Room)createObject("Room", "Forge"));
+
             roomObjectsList.Add((Room)createObject("Room", "Laboratory"));
+
             roomObjectsList.Add((Room)createObject("Room", "Prison"));
 
             displayRoom(0); // displays armory to start game
@@ -182,10 +187,11 @@ namespace DungeonCrawl_NoyesPrivette_3
         // displays player inventory to inventory list box
         private void displayInventory()
         {
+            inventoryListBox.Items.Clear();
+
             // if inventory empty
             if (player.inventory.Count < 1)
             {
-                inventoryListBox.Items.Clear();
                 inventoryListBox.Items.Add("You currently have no items :(");
             }
             else
@@ -517,7 +523,18 @@ namespace DungeonCrawl_NoyesPrivette_3
                 // upon conclusion of battle updating stats everywhere                
                 if (roomObjectsList[roomIndex].enemiesList[enemyIndex].health < 1)
                 {
-                    roomObjectsList[roomIndex].removeEnemyFromRoom(roomObjectsList[roomIndex].enemiesList[enemyIndex]);
+                    roomObjectsList[roomIndex].removeEnemyFromRoom(roomObjectsList[roomIndex].enemiesList[enemyIndex]);   
+                }
+
+                if (roomObjectsList[roomIndex].enemiesList.Count < 1)
+                {
+                    while(roomObjectsList[roomIndex].treasureChestList.Count > 0)
+                    {
+                        player.pickUpItem(roomObjectsList[roomIndex].treasureChestList[0]);
+                        roomObjectsList[roomIndex].removeTreasureFromChest(roomObjectsList[roomIndex].treasureChestList[0]);
+                    }
+
+                    MessageBox.Show("The treasure chest in this room is yours!");
                 }
 
                 displayPlayer();
