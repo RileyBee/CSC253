@@ -1,0 +1,5 @@
+﻿Armory,Weapons weapons weapons
+Crypt,Beware the undead
+Forge, Fire and brimstone 
+Laboratory, Evil alchemy
+Prison, It's empty - or is it.

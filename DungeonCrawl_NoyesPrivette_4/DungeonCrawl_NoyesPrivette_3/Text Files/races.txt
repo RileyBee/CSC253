@@ -1,0 +1,5 @@
+﻿Dwarf,Short and stalwart fighter,-1,+1,-2,-1,-1
+Elf,Clever and elusive,+1,-1,+2,+1,-1
+Dragonborn,Born of dragons,-1,-1,+2,-1,-1
+Human,Adaptable and ambitious,+1,-1,+1,-1,-1
+Orc,Tribal warrior race,+1,-1,-2,-2,-2
