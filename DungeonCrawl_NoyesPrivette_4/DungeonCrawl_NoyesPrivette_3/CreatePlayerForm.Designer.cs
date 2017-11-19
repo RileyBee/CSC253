@@ -49,18 +49,22 @@
             // 
             // createPlayerButton
             // 
+            this.createPlayerButton.BackColor = System.Drawing.Color.DarkRed;
             this.createPlayerButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.createPlayerButton.ForeColor = System.Drawing.Color.Beige;
             this.createPlayerButton.Location = new System.Drawing.Point(400, 146);
             this.createPlayerButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.createPlayerButton.Name = "createPlayerButton";
             this.createPlayerButton.Size = new System.Drawing.Size(108, 66);
             this.createPlayerButton.TabIndex = 23;
             this.createPlayerButton.Text = "Create";
-            this.createPlayerButton.UseVisualStyleBackColor = true;
+            this.createPlayerButton.UseVisualStyleBackColor = false;
             this.createPlayerButton.Click += new System.EventHandler(this.createPlayerButton_Click);
             // 
             // castComboBox
             // 
+            this.castComboBox.BackColor = System.Drawing.Color.Black;
+            this.castComboBox.ForeColor = System.Drawing.Color.Beige;
             this.castComboBox.FormattingEnabled = true;
             this.castComboBox.Items.AddRange(new object[] {
             "Barbarian",
@@ -77,6 +81,8 @@
             // 
             // raceComboBox
             // 
+            this.raceComboBox.BackColor = System.Drawing.Color.Black;
+            this.raceComboBox.ForeColor = System.Drawing.Color.Beige;
             this.raceComboBox.FormattingEnabled = true;
             this.raceComboBox.Items.AddRange(new object[] {
             "Dwarf",
@@ -94,6 +100,7 @@
             // passInstructLabel3
             // 
             this.passInstructLabel3.AutoSize = true;
+            this.passInstructLabel3.ForeColor = System.Drawing.Color.Beige;
             this.passInstructLabel3.Location = new System.Drawing.Point(12, 163);
             this.passInstructLabel3.Name = "passInstructLabel3";
             this.passInstructLabel3.Size = new System.Drawing.Size(283, 17);
@@ -111,6 +118,7 @@
             // nameInstructLabel2
             // 
             this.nameInstructLabel2.AutoSize = true;
+            this.nameInstructLabel2.ForeColor = System.Drawing.Color.Beige;
             this.nameInstructLabel2.Location = new System.Drawing.Point(25, 50);
             this.nameInstructLabel2.Name = "nameInstructLabel2";
             this.nameInstructLabel2.Size = new System.Drawing.Size(252, 17);
@@ -128,6 +136,7 @@
             // raceInstructLabel
             // 
             this.raceInstructLabel.AutoSize = true;
+            this.raceInstructLabel.ForeColor = System.Drawing.Color.Beige;
             this.raceInstructLabel.Location = new System.Drawing.Point(361, 248);
             this.raceInstructLabel.Name = "raceInstructLabel";
             this.raceInstructLabel.Size = new System.Drawing.Size(95, 17);
@@ -137,6 +146,7 @@
             // passInstructLabel2
             // 
             this.passInstructLabel2.AutoSize = true;
+            this.passInstructLabel2.ForeColor = System.Drawing.Color.Beige;
             this.passInstructLabel2.Location = new System.Drawing.Point(12, 146);
             this.passInstructLabel2.Name = "passInstructLabel2";
             this.passInstructLabel2.Size = new System.Drawing.Size(292, 17);
@@ -146,6 +156,7 @@
             // passInstructLabel1
             // 
             this.passInstructLabel1.AutoSize = true;
+            this.passInstructLabel1.ForeColor = System.Drawing.Color.Beige;
             this.passInstructLabel1.Location = new System.Drawing.Point(12, 129);
             this.passInstructLabel1.Name = "passInstructLabel1";
             this.passInstructLabel1.Size = new System.Drawing.Size(279, 17);
@@ -155,6 +166,7 @@
             // castInstructLabel
             // 
             this.castInstructLabel.AutoSize = true;
+            this.castInstructLabel.ForeColor = System.Drawing.Color.Beige;
             this.castInstructLabel.Location = new System.Drawing.Point(28, 248);
             this.castInstructLabel.Name = "castInstructLabel";
             this.castInstructLabel.Size = new System.Drawing.Size(93, 17);
@@ -164,6 +176,7 @@
             // nameInstructLabel1
             // 
             this.nameInstructLabel1.AutoSize = true;
+            this.nameInstructLabel1.ForeColor = System.Drawing.Color.Beige;
             this.nameInstructLabel1.Location = new System.Drawing.Point(12, 33);
             this.nameInstructLabel1.Name = "nameInstructLabel1";
             this.nameInstructLabel1.Size = new System.Drawing.Size(199, 17);
@@ -173,6 +186,7 @@
             // descInstructLabel2
             // 
             this.descInstructLabel2.AutoSize = true;
+            this.descInstructLabel2.ForeColor = System.Drawing.Color.Beige;
             this.descInstructLabel2.Location = new System.Drawing.Point(328, 50);
             this.descInstructLabel2.Name = "descInstructLabel2";
             this.descInstructLabel2.Size = new System.Drawing.Size(252, 17);
@@ -190,6 +204,7 @@
             // descInstructLabel1
             // 
             this.descInstructLabel1.AutoSize = true;
+            this.descInstructLabel1.ForeColor = System.Drawing.Color.Beige;
             this.descInstructLabel1.Location = new System.Drawing.Point(312, 33);
             this.descInstructLabel1.Name = "descInstructLabel1";
             this.descInstructLabel1.Size = new System.Drawing.Size(256, 17);
@@ -198,6 +213,8 @@
             // 
             // castListBox
             // 
+            this.castListBox.BackColor = System.Drawing.Color.Black;
+            this.castListBox.ForeColor = System.Drawing.Color.Beige;
             this.castListBox.FormattingEnabled = true;
             this.castListBox.ItemHeight = 16;
             this.castListBox.Location = new System.Drawing.Point(15, 294);
@@ -207,6 +224,8 @@
             // 
             // raceListBox
             // 
+            this.raceListBox.BackColor = System.Drawing.Color.Black;
+            this.raceListBox.ForeColor = System.Drawing.Color.Beige;
             this.raceListBox.FormattingEnabled = true;
             this.raceListBox.ItemHeight = 16;
             this.raceListBox.Location = new System.Drawing.Point(350, 294);
@@ -218,6 +237,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(3)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(603, 421);
             this.Controls.Add(this.raceListBox);
             this.Controls.Add(this.castListBox);

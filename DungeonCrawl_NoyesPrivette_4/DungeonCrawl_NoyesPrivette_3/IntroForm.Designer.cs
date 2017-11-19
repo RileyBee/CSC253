@@ -41,19 +41,22 @@
             // titleLabel1
             // 
             this.titleLabel1.AutoSize = true;
+            this.titleLabel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(3)))), ((int)(((byte)(0)))));
             this.titleLabel1.Font = new System.Drawing.Font("Palatino Linotype", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleLabel1.Location = new System.Drawing.Point(12, 9);
+            this.titleLabel1.ForeColor = System.Drawing.Color.Silver;
+            this.titleLabel1.Location = new System.Drawing.Point(44, 31);
             this.titleLabel1.Name = "titleLabel1";
-            this.titleLabel1.Size = new System.Drawing.Size(378, 65);
+            this.titleLabel1.Size = new System.Drawing.Size(311, 65);
             this.titleLabel1.TabIndex = 0;
-            this.titleLabel1.Text = "Dungeon Crawl";
+            this.titleLabel1.Text = "Broadmantle";
             this.titleLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // titleLabel2
             // 
             this.titleLabel2.AutoSize = true;
             this.titleLabel2.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleLabel2.Location = new System.Drawing.Point(58, 74);
+            this.titleLabel2.ForeColor = System.Drawing.Color.Silver;
+            this.titleLabel2.Location = new System.Drawing.Point(51, 96);
             this.titleLabel2.Name = "titleLabel2";
             this.titleLabel2.Size = new System.Drawing.Size(288, 23);
             this.titleLabel2.TabIndex = 1;
@@ -63,6 +66,7 @@
             // instructLabel1
             // 
             this.instructLabel1.AutoSize = true;
+            this.instructLabel1.ForeColor = System.Drawing.Color.Silver;
             this.instructLabel1.Location = new System.Drawing.Point(67, 209);
             this.instructLabel1.Name = "instructLabel1";
             this.instructLabel1.Size = new System.Drawing.Size(279, 17);
@@ -71,28 +75,33 @@
             // 
             // createButton
             // 
+            this.createButton.BackColor = System.Drawing.Color.DarkRed;
+            this.createButton.ForeColor = System.Drawing.Color.Beige;
             this.createButton.Location = new System.Drawing.Point(37, 294);
             this.createButton.Name = "createButton";
             this.createButton.Size = new System.Drawing.Size(105, 46);
             this.createButton.TabIndex = 3;
             this.createButton.Text = "Create New Player";
-            this.createButton.UseVisualStyleBackColor = true;
+            this.createButton.UseVisualStyleBackColor = false;
             this.createButton.Click += new System.EventHandler(this.createButton_Click);
             // 
             // beginButton
             // 
+            this.beginButton.BackColor = System.Drawing.Color.DarkRed;
             this.beginButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.beginButton.ForeColor = System.Drawing.Color.Beige;
             this.beginButton.Location = new System.Drawing.Point(259, 294);
             this.beginButton.Name = "beginButton";
             this.beginButton.Size = new System.Drawing.Size(105, 46);
             this.beginButton.TabIndex = 6;
             this.beginButton.Text = "Begin";
-            this.beginButton.UseVisualStyleBackColor = true;
+            this.beginButton.UseVisualStyleBackColor = false;
             this.beginButton.Click += new System.EventHandler(this.beginButton_Click);
             // 
             // instructLabel2
             // 
             this.instructLabel2.AutoSize = true;
+            this.instructLabel2.ForeColor = System.Drawing.Color.Silver;
             this.instructLabel2.Location = new System.Drawing.Point(77, 226);
             this.instructLabel2.Name = "instructLabel2";
             this.instructLabel2.Size = new System.Drawing.Size(269, 17);
@@ -101,6 +110,8 @@
             // 
             // playerComboBox
             // 
+            this.playerComboBox.BackColor = System.Drawing.Color.Black;
+            this.playerComboBox.ForeColor = System.Drawing.Color.Beige;
             this.playerComboBox.FormattingEnabled = true;
             this.playerComboBox.Location = new System.Drawing.Point(37, 246);
             this.playerComboBox.Name = "playerComboBox";
@@ -109,6 +120,8 @@
             // 
             // passwordTextBox
             // 
+            this.passwordTextBox.BackColor = System.Drawing.Color.Black;
+            this.passwordTextBox.ForeColor = System.Drawing.Color.Beige;
             this.passwordTextBox.Location = new System.Drawing.Point(212, 246);
             this.passwordTextBox.Name = "passwordTextBox";
             this.passwordTextBox.Size = new System.Drawing.Size(152, 22);
@@ -118,6 +131,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(3)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(402, 373);
             this.Controls.Add(this.passwordTextBox);
             this.Controls.Add(this.playerComboBox);
