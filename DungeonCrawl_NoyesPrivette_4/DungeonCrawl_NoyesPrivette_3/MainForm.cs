@@ -15,11 +15,6 @@ namespace DungeonCrawl_NoyesPrivette_3
 {
     public partial class MainForm : Form
     {
-        string connectionString;
-        
-        SqlConnection connection;
-        
-
         // fields to hold lists of a arrays of each objects attributes. originally read from file.
         // this info will be used to create objects from each class except for casts and races,
         // those two lists will be used to fill in player objects attributes.
@@ -46,10 +41,7 @@ namespace DungeonCrawl_NoyesPrivette_3
         public MainForm()
         {
             InitializeComponent();
-
-            
-            
-            
+                                                
             // initializing these object attribute lists in constructor so that they may also be used
             // by create player form when it creates an instance of this form.
             // if put in form load event entire form would have to be displayed in order for them to be accessed.
@@ -66,15 +58,27 @@ namespace DungeonCrawl_NoyesPrivette_3
             _startingPlayerName = "";
         }
 
-        private void InitialData()
-        {
-            connection = new SqlConnection(connectionString);
-        }
-                
+        
         
         private void MainForm_Load(object sender, EventArgs e)
         {
-                       
+            // TODO: This line of code loads data into the 'objectsDataSet.Weapons' table. You can move, or remove it, as needed.
+            this.weaponsTableAdapter.Fill(this.objectsDataSet.Weapons);
+            // TODO: This line of code loads data into the 'objectsDataSet.Trinkets' table. You can move, or remove it, as needed.
+            this.trinketsTableAdapter.Fill(this.objectsDataSet.Trinkets);
+            // TODO: This line of code loads data into the 'objectsDataSet.Rooms' table. You can move, or remove it, as needed.
+            this.roomsTableAdapter.Fill(this.objectsDataSet.Rooms);
+            // TODO: This line of code loads data into the 'objectsDataSet.Races' table. You can move, or remove it, as needed.
+            this.racesTableAdapter.Fill(this.objectsDataSet.Races);
+            // TODO: This line of code loads data into the 'objectsDataSet.Potions' table. You can move, or remove it, as needed.
+            this.potionsTableAdapter.Fill(this.objectsDataSet.Potions);
+            // TODO: This line of code loads data into the 'objectsDataSet.Loot' table. You can move, or remove it, as needed.
+            this.lootTableAdapter.Fill(this.objectsDataSet.Loot);
+            // TODO: This line of code loads data into the 'objectsDataSet.Enemies' table. You can move, or remove it, as needed.
+            this.enemiesTableAdapter.Fill(this.objectsDataSet.Enemies);
+            // TODO: This line of code loads data into the 'objectsDataSet.Casts' table. You can move, or remove it, as needed.
+            this.castsTableAdapter.Fill(this.objectsDataSet.Casts);
+
             // initializing objects and displaying things here in load event so they will not
             // load when instance of this form is used elsewhere
 
@@ -152,6 +156,7 @@ namespace DungeonCrawl_NoyesPrivette_3
             get { return _racesList; }
         }
 
+                
 
         // creates active player object from file
         private void createPlayerFromFile()
@@ -593,5 +598,15 @@ namespace DungeonCrawl_NoyesPrivette_3
                 infoListBox.Items.Clear(); //clearing out info box 
             }
         }
+
+        private void castsBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.castsBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.objectsDataSet);
+
+        }
+
+        
     }
 }
