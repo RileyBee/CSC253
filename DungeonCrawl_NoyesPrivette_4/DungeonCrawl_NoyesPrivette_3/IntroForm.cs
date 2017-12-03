@@ -53,6 +53,7 @@ namespace DungeonCrawl_NoyesPrivette_3
 
         private void beginButton_Click(object sender, EventArgs e)
         {
+
             StreamReader startingPlayerInFile; // loads selected player from file
             startingPlayerInFile = File.OpenText("../../Text Files/player" + playerComboBox.SelectedItem + ".txt");
 
@@ -67,8 +68,9 @@ namespace DungeonCrawl_NoyesPrivette_3
             {
                 MainForm mainForm2 = new MainForm(); // creating main form
                 mainForm2.startingPlayerName = startingPlayerList[0]; // adding starting player to main form field before displaying form
+                this.Hide();
                 mainForm2.ShowDialog();
-                this.Close();
+                this.Show();
                 
             }
             else
