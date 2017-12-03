@@ -8,11 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Configuration;
+using System.Data.SqlClient;
 
 namespace DungeonCrawl_NoyesPrivette_3
 {
     public partial class MainForm : Form
     {
+        string connectionString;
+        
+        SqlConnection connection;
+        
+
         // fields to hold lists of a arrays of each objects attributes. originally read from file.
         // this info will be used to create objects from each class except for casts and races,
         // those two lists will be used to fill in player objects attributes.
@@ -40,6 +47,9 @@ namespace DungeonCrawl_NoyesPrivette_3
         {
             InitializeComponent();
 
+            
+            
+            
             // initializing these object attribute lists in constructor so that they may also be used
             // by create player form when it creates an instance of this form.
             // if put in form load event entire form would have to be displayed in order for them to be accessed.
@@ -56,8 +66,15 @@ namespace DungeonCrawl_NoyesPrivette_3
             _startingPlayerName = "";
         }
 
+        private void InitialData()
+        {
+            connection = new SqlConnection(connectionString);
+        }
+                
+        
         private void MainForm_Load(object sender, EventArgs e)
         {
+                       
             // initializing objects and displaying things here in load event so they will not
             // load when instance of this form is used elsewhere
 
@@ -230,7 +247,7 @@ namespace DungeonCrawl_NoyesPrivette_3
             }
         }
 
-
+        
         // takes filename argument and returns a list of arrays.
         // this will take all info for a certain class file and
         // create a list containing arrays of each objects attributes
