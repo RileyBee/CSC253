@@ -10,6 +10,14 @@ using System.Windows.Forms;
 using System.IO;
 using System.Configuration;
 using System.Data.SqlClient;
+/*
+* Dungeon Crawler - Navigate the map, fight enemies, get loot.
+* Stephen Privette and Chris Noyes
+* CSC 253
+* 12/3/2017
+*/
+
+
 
 namespace DungeonCrawl_NoyesPrivette_3
 {
@@ -18,14 +26,7 @@ namespace DungeonCrawl_NoyesPrivette_3
         // fields to hold lists of a arrays of each objects attributes. originally read from file.
         // this info will be used to create objects from each class except for casts and races,
         // those two lists will be used to fill in player objects attributes.
-        // private List<string[]> _castsList;
-        // private List<string[]> _enemiesList;
-        // private List<string[]> _trinketsList;
-        // private List<string[]> _lootList;
-        // private List<string[]> _potionsList;
-        // private List<string[]> _racesList;
-        // private List<string[]> _roomsList;
-        // private List<string[]> _weaponsList;
+       
 
         private List<List<string>> _castsList;
         private List<List<string>> _enemiesList;
@@ -51,10 +52,7 @@ namespace DungeonCrawl_NoyesPrivette_3
         {
             InitializeComponent();
 
-            // initializing these object attribute lists in constructor so that they may also be used
-            // by create player form when it creates an instance of this form.
-            // if put in form load event entire form would have to be displayed in order for them to be accessed.
-            // calling method to load object attributes from file into lists of arrays
+            
 
             // TODO: This line of code loads data into the 'objectsDataSet.Weapons' table. You can move, or remove it, as needed.
             this.weaponsTableAdapter.Fill(this.objectsDataSet.Weapons);
@@ -73,14 +71,10 @@ namespace DungeonCrawl_NoyesPrivette_3
             // TODO: This line of code loads data into the 'objectsDataSet.Casts' table. You can move, or remove it, as needed.
             this.castsTableAdapter.Fill(this.objectsDataSet.Casts);
 
-            // _castsList = loadClassFile("casts"); 
-            // _enemiesList = loadClassFile("enemies");
-            // _trinketsList = loadClassFile("trinkets");
-            // _lootList = loadClassFile("loot");
-            // _potionsList = loadClassFile("potions");
-            // _racesList = loadClassFile("races");
-            // _roomsList = loadClassFile("rooms");
-            // _weaponsList = loadClassFile("weapons");
+            // initializing these object attribute lists in constructor so that they may also be used
+            // by create player form when it creates an instance of this form.
+            // if put in form load event entire form would have to be displayed in order for them to be accessed.
+            // calling method to load object attributes from file into lists of arrays
 
             _castsList = loadClassFromDB("cast");
             _enemiesList = loadClassFromDB("enemy");
@@ -161,17 +155,7 @@ namespace DungeonCrawl_NoyesPrivette_3
             set { _startingPlayerName = value; }
         }
 
-        // so create player form can retrieve info
-        // public List<string[]> castsList
-        // {
-        // get { return _castsList; }
-        // }
-
-        // so create player form can retrieve info
-        // public List<string[]> racesList
-        // {
-        // get { return _racesList; }
-        // }
+       
 
         // so create player form can retrieve info
         public List<List<string>> castsList
@@ -280,7 +264,10 @@ namespace DungeonCrawl_NoyesPrivette_3
                 }
             }
         }
+        
 
+        // Iterates through table data and creates list of objects
+        // For all object tables in the database
         private List<List<string>> loadClassFromDB(string name)
         {
             List<List<string>> x = new List<List<string>>();
@@ -424,6 +411,7 @@ namespace DungeonCrawl_NoyesPrivette_3
             roomDescLabel.Text = roomObjectsList[index].name; // room header
             enemyListBox.Items.Clear(); 
             treasureChestListBox.Items.Clear();
+
             // for every enemy in the rooms enemylist add it to list box
             foreach(Enemy i in roomObjectsList[index].enemiesList)
             {

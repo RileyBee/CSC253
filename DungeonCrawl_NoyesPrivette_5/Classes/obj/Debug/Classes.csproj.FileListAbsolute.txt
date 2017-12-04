@@ -33,3 +33,8 @@ C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette_5\Classes\bin\Debug
 C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette_5\Classes\obj\Debug\Classes.csprojResolveAssemblyReference.cache
 C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette_5\Classes\obj\Debug\Classes.dll
 C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette_5\Classes\obj\Debug\Classes.pdb
+C:\Users\riley\Documents\GitHub\CSC253\DungeonCrawl_NoyesPrivette_5\Classes\bin\Debug\Classes.dll
+C:\Users\riley\Documents\GitHub\CSC253\DungeonCrawl_NoyesPrivette_5\Classes\bin\Debug\Classes.pdb
+C:\Users\riley\Documents\GitHub\CSC253\DungeonCrawl_NoyesPrivette_5\Classes\obj\Debug\Classes.csprojResolveAssemblyReference.cache
+C:\Users\riley\Documents\GitHub\CSC253\DungeonCrawl_NoyesPrivette_5\Classes\obj\Debug\Classes.dll
+C:\Users\riley\Documents\GitHub\CSC253\DungeonCrawl_NoyesPrivette_5\Classes\obj\Debug\Classes.pdb
