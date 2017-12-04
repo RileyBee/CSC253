@@ -1,0 +1,4 @@
+﻿Axe,Slashing damage,3
+Club,Bludgeoning weapon,2
+Spear,Piercing damage,3
+Sword,Slashing damage,2

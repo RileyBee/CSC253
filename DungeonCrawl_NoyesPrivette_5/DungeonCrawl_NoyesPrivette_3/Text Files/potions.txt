@@ -1,0 +1,2 @@
+﻿Life,Restore hit points,Health
+Magic,Restore magic points,Mana

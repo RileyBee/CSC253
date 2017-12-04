@@ -1,0 +1,35 @@
+C:\Users\noyesc0779\Documents\GitHub\CSC253\DungeonCrawl_NoyesPrivette_3\Classes\bin\Debug\Classes.dll
+C:\Users\noyesc0779\Documents\GitHub\CSC253\DungeonCrawl_NoyesPrivette_3\Classes\bin\Debug\Classes.pdb
+C:\Users\noyesc0779\Documents\GitHub\CSC253\DungeonCrawl_NoyesPrivette_3\Classes\obj\Debug\Classes.csprojResolveAssemblyReference.cache
+C:\Users\noyesc0779\Documents\GitHub\CSC253\DungeonCrawl_NoyesPrivette_3\Classes\obj\Debug\Classes.dll
+C:\Users\noyesc0779\Documents\GitHub\CSC253\DungeonCrawl_NoyesPrivette_3\Classes\obj\Debug\Classes.pdb
+C:\Users\noyesc0779\Desktop\DungeonCrawl_NoyesPrivette_3\Classes\bin\Debug\Classes.dll
+C:\Users\noyesc0779\Desktop\DungeonCrawl_NoyesPrivette_3\Classes\bin\Debug\Classes.pdb
+C:\Users\noyesc0779\Desktop\DungeonCrawl_NoyesPrivette_3\Classes\obj\Debug\Classes.csprojResolveAssemblyReference.cache
+C:\Users\noyesc0779\Desktop\DungeonCrawl_NoyesPrivette_3\Classes\obj\Debug\Classes.dll
+C:\Users\noyesc0779\Desktop\DungeonCrawl_NoyesPrivette_3\Classes\obj\Debug\Classes.pdb
+C:\Users\Steve\Downloads\CSC253-3rd-Iteration\DungeonCrawl_NoyesPrivette_3\Classes\bin\Debug\Classes.dll
+C:\Users\Steve\Downloads\CSC253-3rd-Iteration\DungeonCrawl_NoyesPrivette_3\Classes\bin\Debug\Classes.pdb
+C:\Users\Steve\Downloads\CSC253-3rd-Iteration\DungeonCrawl_NoyesPrivette_3\Classes\obj\Debug\Classes.csprojResolveAssemblyReference.cache
+C:\Users\Steve\Downloads\CSC253-3rd-Iteration\DungeonCrawl_NoyesPrivette_3\Classes\obj\Debug\Classes.dll
+C:\Users\Steve\Downloads\CSC253-3rd-Iteration\DungeonCrawl_NoyesPrivette_3\Classes\obj\Debug\Classes.pdb
+C:\Users\privetts3931\Desktop\DungeonCrawl_NoyesPrivette_4\Classes\bin\Debug\Classes.dll
+C:\Users\privetts3931\Desktop\DungeonCrawl_NoyesPrivette_4\Classes\bin\Debug\Classes.pdb
+C:\Users\privetts3931\Desktop\DungeonCrawl_NoyesPrivette_4\Classes\obj\Debug\Classes.csprojResolveAssemblyReference.cache
+C:\Users\privetts3931\Desktop\DungeonCrawl_NoyesPrivette_4\Classes\obj\Debug\Classes.dll
+C:\Users\privetts3931\Desktop\DungeonCrawl_NoyesPrivette_4\Classes\obj\Debug\Classes.pdb
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette_4\Classes\bin\Debug\Classes.dll
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette_4\Classes\bin\Debug\Classes.pdb
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette_4\Classes\obj\Debug\Classes.csprojResolveAssemblyReference.cache
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette_4\Classes\obj\Debug\Classes.dll
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette_4\Classes\obj\Debug\Classes.pdb
+E:\CSC253\DungeonCrawler\DungeonCrawl_NoyesPrivette_4\Classes\bin\Debug\Classes.dll
+E:\CSC253\DungeonCrawler\DungeonCrawl_NoyesPrivette_4\Classes\bin\Debug\Classes.pdb
+E:\CSC253\DungeonCrawler\DungeonCrawl_NoyesPrivette_4\Classes\obj\Debug\Classes.csprojResolveAssemblyReference.cache
+E:\CSC253\DungeonCrawler\DungeonCrawl_NoyesPrivette_4\Classes\obj\Debug\Classes.dll
+E:\CSC253\DungeonCrawler\DungeonCrawl_NoyesPrivette_4\Classes\obj\Debug\Classes.pdb
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette_5\Classes\bin\Debug\Classes.dll
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette_5\Classes\bin\Debug\Classes.pdb
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette_5\Classes\obj\Debug\Classes.csprojResolveAssemblyReference.cache
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette_5\Classes\obj\Debug\Classes.dll
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette_5\Classes\obj\Debug\Classes.pdb
