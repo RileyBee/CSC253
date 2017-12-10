@@ -1,0 +1,13 @@
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette_3\bin\Release\DungeonCrawl_NoyesPrivette_3.exe.config
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette_3\bin\Release\Objects.mdf
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette_3\bin\Release\Objects_log.ldf
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette_3\bin\Release\DungeonCrawl_NoyesPrivette_3.exe
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette_3\bin\Release\DungeonCrawl_NoyesPrivette_3.pdb
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette_3\obj\Release\DungeonCrawl_NoyesPrivette.BattleForm.resources
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette_3\obj\Release\DungeonCrawl_NoyesPrivette.CreatePlayerForm.resources
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette_3\obj\Release\DungeonCrawl_NoyesPrivette.IntroForm.resources
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette_3\obj\Release\DungeonCrawl_NoyesPrivette.MainForm.resources
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette_3\obj\Release\DungeonCrawl_NoyesPrivette_3.Properties.Resources.resources
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette_3\obj\Release\DungeonCrawl_NoyesPrivette.csproj.GenerateResource.Cache
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette_3\obj\Release\DungeonCrawl_NoyesPrivette_3.exe
+C:\Users\Steve\Dropbox\CSC-253 C#\DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette_3\obj\Release\DungeonCrawl_NoyesPrivette_3.pdb
