@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonCrawl_NoyesPrivette", "DungeonCrawl_NoyesPrivette\DungeonCrawl_NoyesPrivette.csproj", "{ACC09313-6F5B-45F3-8B78-D90A562FE231}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonCrawl_NoyesPrivette", "DungeonCrawl_NoyesPrivette_3\DungeonCrawl_NoyesPrivette.csproj", "{DA52CB57-1253-40E5-A675-30408E9DD35D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ACC09313-6F5B-45F3-8B78-D90A562FE231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ACC09313-6F5B-45F3-8B78-D90A562FE231}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ACC09313-6F5B-45F3-8B78-D90A562FE231}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ACC09313-6F5B-45F3-8B78-D90A562FE231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA52CB57-1253-40E5-A675-30408E9DD35D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA52CB57-1253-40E5-A675-30408E9DD35D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA52CB57-1253-40E5-A675-30408E9DD35D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA52CB57-1253-40E5-A675-30408E9DD35D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
